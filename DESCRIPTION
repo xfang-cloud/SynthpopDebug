@@ -1,0 +1,20 @@
+Package: SynthpopDebug
+Title: Debug the original synthpop package
+Version: 0.1
+Authors@R: 
+    person(given = "Xi",
+           family = "Fang",
+           role = c("aut", "cre"),
+           email = "xfang@ualberta.ca",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Debug the synthpop package.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to
+    pick a license
+Encoding: UTF-8
+Imports: lattice, MASS, methods, nnet, ggplot2, graphics, stats, utils,
+        rpart, party, foreign, plyr, proto, polspline, randomForest,
+        ranger, classInt, mipfp
+Repository: CRAN
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
